@@ -26,7 +26,7 @@
 <head>
 
     <title>
-        {{ \App\Models\Utility::getValByName('title_text') ? \App\Models\Utility::getValByName('title_text') : config('app.name', 'HRMGo SaaS') }}
+        {{ \App\Models\Utility::getValByName('title_text') ? \App\Models\Utility::getValByName('title_text') : config('app.name', 'Work-Hive SaaS') }}
         - @yield('page-title')</title>
 
     <!-- SEO META -->
